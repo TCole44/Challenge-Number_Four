@@ -1,5 +1,11 @@
 # 04 Web APIs: Code Quiz
 
+## For this assignment I was able to finish the html and css with the help of a couple of youtube videos(linked). I did the some javascript but ultimately needed some help from some tutors to help finish and clean it up. 
+
+### https://www.youtube.com/watch?v=riDzcEQbX6k&t=875s
+### https://www.youtube.com/watch?v=WHHYz8rZmDU&t=512s
+### https://www.youtube.com/watch?v=AFTvxsVv52k
+
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
