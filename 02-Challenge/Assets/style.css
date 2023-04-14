@@ -70,12 +70,16 @@ li {
     list-style: none;
 }
 
-main{
+ul {
+    display: inline-flexbox;
+}
+
+.hide{
     display: none;
     text-align: center;
 }
 
-.question-screen {
+/* .question-screen {
     display: none;
 }
 
@@ -85,4 +89,4 @@ main{
 
 .highscore-screen {
     display: none;
-}
+} */

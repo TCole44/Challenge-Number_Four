@@ -5,57 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./02-Challenge/Assets/style.css">
+    <link rel="java" href="./02-Challenge/Assets/script.js">
     <title>Web Quiz</title>
 </head>
 <body>
     <div class="container">
 
         <div class="progress">
-            <button>View Highscores</button>
-            <p>Timer: 00:00</p>
+            <button type="button" class="btn">View Highscores</button>
+            <p class="timer">Timer: 00:00</p>
         </div>
 
         <div class="quiz-window">
 
-            <header class="start-screen">
+            <header class="start-screen" id="start-screen">
                 <h1>Welcome to the Quiz</h1>
                 <p>Press start to begin the quiz!!!</p>
-                <button>Start Quiz</button>
+                <button type="button" class="btn" id="start-btn">Start Quiz</button>
             </header>
 
             <main>
 
-                <section class="question-screen">
-                    <h2>???question???</h2>
+                <section class="question-screen hide" id="question-screen">
+                    <h2 class="question" id="question">???question???</h2>
                     <ul>
-                        <li><button>Answer 1</button></li>
-                        <li><button>Answer 2</button></li>
-                        <li><button>Answer 3</button></li>
-                        <li><button>Answer 4</button></li>
+                        <li type="button" class="answer btn" id="a-1"><button>Answer 1</button></li>
+                        <li type="button" class="answer btn" id="a-2"><button>Answer 2</button></li>
+                        <li type="button" class="answer btn" id="a-3"><button>Answer 3</button></li>
+                        <li type="button" class="answer btn" id="a-4"><button>Answer 4</button></li>
                     </ul>
                 </section>
 
-                <section class="finish-screen">
+                <section class="finish-screen hide">
                     <h2>You Finished!!!!</h2>
-                    <p>Your Score: 00</p>
+                    <p class="score">Your Score: 00</p>
                     <div>
                         <label for="">Enter Your Initials</label>
-                        <button>Submit</button>
+                        <button type="button" class="btn">Submit</button>
                     </div>
 
                 </section>
 
-                <section class="highscore-screen">    
+                <section class="highscore-screen hide">    
                     <h2>Highscores</h2>
                     <ol>
 
                     </ol>
-                    <button>Return to Start</button>
+                    <button type="button" class="btn">Return to Start</button>
                 </section>
             </main>
 
         </div>
 
     </div>
+    <script src="./02-Challenge/Assets/script.js"></script>
 </body>
 </html>
